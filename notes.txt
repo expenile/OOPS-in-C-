@@ -1,0 +1,55 @@
+OOPS
+- Object-Oriented Programming (OOP) is a programming paradigm that uses objects and classes to design and develop applications. It is based on the concept of objects, which can contain data in the form of fields (attributes or properties), and code in the form of procedures (methods).
+- Classes and Objects
+-Objectsare entities that have attributes and behavior. For example, a car has attributes such as color and model, and behavior such as speed and braking.
+
+- Classes are blueprints for objects. A class defines the
+attributes and behavior that an object of the class will have.
+
+(so can we say that plan isa a class and a product developed through the plan is object?)
+
+
+-Object contains methods and variables. A method is a function that defines the behavior of the object, and variables are the attributes of the object.
+
+Access modifiers are keywords that define the visibility of a class, method, or variable. There are four types of access modifiers in Java: public, private, protected, and default.
+
+private: The private access modifier makes the class, method, or variable accessible only within the class in which it(data and methods accessible inside class)
+
+bydefault everything in C++ is private
+
+public: data and methods accessible outside class
+
+protected: data and methods accessible inside class and its derived class
+
+
+OOPS 
+
+Encapsulation: Encapsulation is the process of bundling data (attributes) and methods (functions) that operate on the data into a single unit called a class. It is used to restrict access to the data and methods of an object, and to prevent the data from being modified by external code.
+
+
+(is wrapping up of data and member functions in a single unit class  ---> data/ properties + methods/ functions ====> class)
+
+Encapsulation helps in data hiding, which means that the internal representation of an object is hidden from the outside world. This allows the object to control its own state and behavior, and to prevent external code from directly accessing or modifying its data.
+
+
+Constructor: Special method invoked automatically at time of object creaction. It is used to initialize the object's state. It has same name as class name and no return type.
+
+-Same name as class name
+- No return type
+- Invoked automatically at time of object creation
+-Only called once per object(automatically)
+-Try not making Constructor as private, as it will not allow object creation
+- Memory allocation happens when Constructor is called
+
+3 types of constructors:
+Non-parameterized constructor
+parameterized constructor
+copy constructor
+
+
+Class does not take any memory, object takes memory.
+
+
+Abstraction
+Inheritance
+Polymorphism
