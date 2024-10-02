@@ -3,8 +3,6 @@ destructor : opposite of constructor
 construcor allocates memory and initializes the object
 destructor deallocates memory and cleans up the object
 is gets automatically called when the object goes out of scope
-
-
 */
 
 #include <bits/stdc++.h>
