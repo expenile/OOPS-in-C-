@@ -13,8 +13,6 @@ class Student {
 };
 
 
-
-
 int main(){
     Student first;
 
