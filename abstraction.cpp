@@ -9,3 +9,27 @@ eg: access modifiers: public, private, protected
 abstract class: these cannot be instantiated, they can only be inherited
 
 */
+
+
+#include <bits/stdc++.h>
+using namespace std;
+class Shape{
+    public:
+    virtual void show() = 0;
+
+};
+
+class Circle : public Shape{
+    public:
+void show(){
+    cout<<"Circle called"<<endl;
+}
+};
+
+int main(){
+
+    Shape *s1 = new Circle();
+    s1->show();
+
+    delete s1;
+} 
