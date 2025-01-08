@@ -23,6 +23,7 @@ class C: public A, public B{
 
 int main(){
     C ob1;
+
     ob1.A::f1();
     ob1.B::f1();
 

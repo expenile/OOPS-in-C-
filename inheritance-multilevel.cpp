@@ -20,5 +20,6 @@ class gemran:public Dog{
 };
 int main(){
     gemran g;
+    g.speak();
 
 } 
